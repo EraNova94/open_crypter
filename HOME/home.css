@@ -6,14 +6,16 @@
   background: #141416;
 }
 .container {
-  max-width: 1120px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px auto;
+  margin-top: 10px;
 }
 
 .nav__left {
@@ -134,7 +136,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 108px auto;
+  margin-top: 100px;
 }
 .title__main {
   text-align: center;
@@ -183,9 +185,8 @@
 
 .main__page {
   display: flex;
-  justify-content: space-evenly;
-  margin: 0 auto;
-  padding: 0 15px;
+  justify-content: space-between;
+  margin-top: 110px;
 }
 
 .main__page-left {
@@ -385,4 +386,199 @@
   border-radius: 40px;
   border: 2px solid #353945;
   padding: 8px;
+}
+
+.first__section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-bottom: 135px;
+}
+.first__section-left {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  padding-right: 20px;
+}
+
+.first__section-left > img {
+  border-radius: 12px;
+}
+.left__section-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left__section-ava {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left__section-user-wallet-info > h4 {
+  color: #fcfcfd;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.left__section-user-wallet-info > h6 {
+  color: #e6e8ec;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.left__section-user-bid-info > p {
+  color: #575a66;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 3px;
+}
+.left__section-user-bid-info > div {
+  padding: 4px 4px;
+  border: 2px solid #10d856;
+  border-radius: 4px;
+  color: #45b36b;
+  text-align: center;
+}
+
+.first__section-center {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.center__section-blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 351px;
+}
+.center__bid-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.center__bid-info > h4 {
+  color: #fcfcfd;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.center__ava-eth {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.center__ava-eth > p {
+  color: #777e90;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.user__crypto-balance {
+  border: 2px solid #45b36b;
+  border-radius: 4px;
+  color: #45b26b;
+  padding: 4px 4px;
+}
+
+.center__bid-info > button {
+  display: flex;
+  align-items: center;
+  border: 2px solid #777e91;
+  border-radius: 90px;
+  color: #fcfcfd;
+  padding: 8px 12px;
+  height: 32px;
+  width: 98px;
+}
+#center__bid-btn {
+  background: #3772ff;
+  border: none;
+}
+
+.first__section-divider {
+  background: #353945;
+  width: 1px;
+  height: 512px;
+  margin: 0 10px;
+}
+
+.first__section-right {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-right: 10px;
+}
+
+.first__section-right > span {
+  color: #777e90;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.right__section-users-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 225px;
+}
+.right__section-user-name {
+  color: #fcfcfd;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+.right__section-user-wallet {
+  color: #e6e8ec;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.crypto-name {
+  color: #777e90;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.right__section-bottom-divider {
+  background: #353945;
+  width: 224px;
+  height: 1px;
+}
+
+.right__section-btn {
+  border: 2px solid #777e91;
+  border-radius: 90px;
+  color: #fcfcfd;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  width: 158px;
+  height: 40px;
+  padding: 12px, 16px;
+}
+
+#right__section-arrow {
+  padding-left: 10px;
 }
