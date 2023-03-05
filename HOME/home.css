@@ -777,3 +777,138 @@
   width: 24px;
   height: 24px;
 }
+
+.hot__bids {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding-top: 136px;
+  padding-bottom: 128px;
+}
+
+.hot__bid-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hot__bid-title > h2 {
+  color: #fcfcfd;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.hot__bid-arrows {
+  display: flex;
+  gap: 8px;
+}
+
+.hot__bid-arrow-right {
+  border: 2px solid #353945;
+  border-radius: 40px;
+  padding: 8px;
+  width: 35px;
+  height: 35px;
+}
+
+.hot__bid-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bid__card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 256px;
+  font-family: "Poppins";
+  margin: 0 5px;
+}
+
+.card__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__title > h4 {
+  color: #fcfcfd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card__title > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #45b36b;
+  border-radius: 4px;
+  width: 68px;
+  height: 26px;
+  color: #45b26b;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.card__avatar-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar__group :nth-child(2) {
+  margin-left: -10px;
+}
+
+.avatar__group :last-child {
+  margin-left: -10px;
+}
+
+.card__avatar-group > span {
+  color: #e6e8ec;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.hot__bids-divider {
+  background: #353945;
+  border-radius: 1px;
+  width: 256px;
+  height: 1px;
+}
+
+.card__filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter__info {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.filter__info :nth-child(2) {
+  color: #777e90;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.filter__info :last-child {
+  color: #fcfcfd;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card__filter > span {
+  color: #777e90;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
