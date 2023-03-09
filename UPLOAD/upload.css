@@ -5,6 +5,7 @@
   background: #141416;
   font-family: "DM Sans";
   list-style-type: none;
+  text-decoration: none;
 }
 
 .container {
@@ -159,7 +160,7 @@
   border-radius: 90px;
   padding: 12px 16px;
 }
-.header__left > span {
+.header__left > a {
   color: #fcfcfd;
   font-weight: 700;
   font-size: 14px;
