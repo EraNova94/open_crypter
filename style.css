@@ -42,10 +42,13 @@
   justify-content: space-around;
   width: 170px;
   color: #777e90;
-  font-family: DM Sans;
+  font-family: "DM Sans";
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+}
+.nav__left-list :last-child {
+  color: #777e90;
 }
 
 .nav__right {
@@ -1920,6 +1923,7 @@
   }
   .info__list :last-child {
     display: block;
+    color: #777e90;
   }
   .footer__right {
     width: 100%;
