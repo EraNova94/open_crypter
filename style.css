@@ -133,12 +133,13 @@
   justify-content: center;
   align-items: center;
 }
-.wallet__btn {
-  font-family: DM Sans;
+.wallet__btn > a {
+  font-family: "DM Sans";
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   color: #fcfcfd;
+  cursor: pointer;
 }
 
 .header__wrapper {
