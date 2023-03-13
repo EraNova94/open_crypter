@@ -396,6 +396,10 @@
   line-height: 16px;
 }
 
+.second__btn > a {
+  color: #fcfcfd;
+}
+
 .arrows {
   display: flex;
   align-items: center;
