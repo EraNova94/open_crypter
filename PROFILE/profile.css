@@ -175,6 +175,13 @@
   width: 170px;
   height: 40px;
 }
+.header__block-btns > button > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: #fcfcfd;
+}
 
 .main__block-wrapper {
   background: #141416;
