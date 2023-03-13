@@ -89,22 +89,25 @@
   background: transparent;
   cursor: pointer;
 }
-.notification {
-  display: flex;
-  align-items: center;
-  width: 40px;
+
+.profile__btn {
+  width: 80px;
   height: 40px;
+  border-radius: 90px;
+  background: #3772ff;
+  padding: 12px, 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.notification > img {
-  width: 24px;
-  height: 24px;
-}
-.status {
-  width: 12px;
-  height: 12px;
-  border-radius: 8px;
-  background: #45b26b;
-  margin-bottom: 25px;
+
+.profile__btn > a {
+  background-color: #3772ff;
+  color: #fcfcfd;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .upload__btn {
@@ -1582,9 +1585,15 @@
   .divider {
     display: none;
   }
+  .nav__left > img {
+    margin-right: 5px;
+  }
   .nav__right {
     width: 900px;
-    justify-content: space-between;
+    gap: 10px;
+  }
+  .search__line {
+    width: 220px;
   }
   .main__page-right {
     width: 304px;
