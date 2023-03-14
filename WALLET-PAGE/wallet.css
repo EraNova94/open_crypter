@@ -44,6 +44,10 @@
   line-height: 16px;
 }
 
+.nav__left-list > li > a {
+  color: #777e90;
+}
+
 .nav__right {
   display: flex;
   justify-content: space-around;
@@ -107,7 +111,7 @@
   background: #3772ff;
   padding: 12px, 16px;
 }
-.upload__btn > span {
+.upload__btn > a {
   background-color: #3772ff;
   color: #fcfcfd;
   font-weight: 700;
