@@ -43,6 +43,9 @@
   font-size: 14px;
   line-height: 16px;
 }
+.nav__left-list :last-child > a {
+  color: #777e90;
+}
 
 .nav__right {
   display: flex;

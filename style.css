@@ -217,11 +217,11 @@
 }
 
 .main__page-left {
-  display: flex;
-  width: 55%;
+  margin: 0 10px;
 }
 .main__page-left > img {
   width: 100%;
+  height: 100%;
   border-radius: 16px;
 }
 
@@ -916,7 +916,7 @@
   justify-content: space-between;
 }
 
-.card__title > h4 {
+.card__title > a {
   color: #fcfcfd;
   font-weight: 500;
   font-size: 16px;
